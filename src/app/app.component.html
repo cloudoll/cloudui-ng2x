@@ -1,0 +1,13 @@
+<div class="wrapper">
+    <!-- Content Header (Page header) -->
+    <app-header>{{ 'LOADING' | translate }} header...</app-header>
+
+    <app-menu-aside>{{ 'LOADING' | translate }} menu...</app-menu-aside>
+
+    <router-outlet></router-outlet>
+
+    <!-- /.content-wrapper -->
+    <app-footer>{{ 'LOADING' | translate }} footer...</app-footer>
+</div>
+
+<toaster-container [toasterconfig]="toastrConfig"></toaster-container>
